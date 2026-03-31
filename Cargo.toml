@@ -1,0 +1,15 @@
+[package]
+name = "px-to-rem"
+version = "0.1.0"
+edition = "2026"
+
+[workspace]
+members = ["lsp-server"]
+
+[lib]
+name = "px_to_rem"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"

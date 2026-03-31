@@ -1,0 +1,12 @@
+id = "px-to-rem"
+name = "px-to-rem"
+description = "Converts CSS px values to rem and vice versa via LSP code actions."
+version = "0.1.0"
+schema_version = 1
+authors = ["ugi-dev <hello@ugi.dev>"]
+repository = "https://github.com/ugi-dev/px-to-rem-zed"
+license = "MIT"
+
+[language_servers.px-to-rem-lsp]
+name = "px-to-rem-lsp"
+languages = ["CSS", "SCSS", "Less", "HTML", "JavaScript", "TypeScript"]
