@@ -7,7 +7,7 @@ use zed_extension_api::{
 use std::fs;
 
 const SERVER_BINARY_NAME: &str = "px-to-rem-lsp";
-const GITHUB_REPO: &str = "ugi-dev/px-to-rem-zed";
+const GITHUB_REPO: &str = "ugi-dev/px-to-rem";
 const SERVER_VERSION: &str = "0.1.0";
 
 struct PxToRemExtension {
