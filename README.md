@@ -2,6 +2,8 @@
 
 Converts CSS `px` values to `rem` and vice versa directly in the editor.
 
+![Px to Rem](cover.png)
+
 ## Usage
 
 Place your cursor on any `px` or `rem` value and press `cmd+shift+z` to open the conversion menu. Select the conversion you want and press `enter`.
