@@ -565,7 +565,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "px-to-rem-extension"
+name = "px-to-rem"
 version = "0.1.0"
 dependencies = [
  "zed_extension_api",
